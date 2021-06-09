@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculate Web</title>
+</head>
+<body>
+    <h1>Welcome To A Simple Calculator</h1>
+    <h3>Please! Input value for a, b and p</h3>
+    <form method="GET" action="http://localhost:3000/">
+        <br>
+        <label for="value-a">a: </label>
+        <input type="text" id="value-a" name="a" />
+        <br><br>
+        <label for="value-b">b: </label> 
+        <input type="text" id="value-b" name="b"/>
+        <br><br>
+        <label for="value-p">p: </label> 
+        <input type="text" id="value-p" name="p"/>
+        <br><br>
+        <input type="submit" value="Calculate Now" onclick="formdata()"/><br>
+        </form>
+        <form>
+            <label for="value-result">Result: </label>
+            <input type="text" id="value-result" value=""/>
+        </form>
+</body>
+</html>
